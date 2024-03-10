@@ -9,4 +9,6 @@ The data is arranged by the ripening time for each banana
 The first set contains data for banana that was in the water for two days and then kept in the air
 The second set contains data for banana that was in the air all the time.
 
-
+## Running the code
+The code can be loaded in https://colab.research.google.com/ and run from there.
+Alternatively, it can be loaded and run from the desktop with python3 and the packages installed.
