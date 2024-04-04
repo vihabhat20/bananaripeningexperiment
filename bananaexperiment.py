@@ -1,4 +1,5 @@
 import numpy as np
+import math
 import scipy.stats as stats
 
 # number of days times number of bananas over ripened on that day,
@@ -36,7 +37,7 @@ days2 = [3,4,6,7,8,10]
 bananas2 = [1,1,4,4,2,1]
 result2 = findweightedaverage(days2,bananas2)
 average, deviation = findweightedavgandstddev(days2, bananas2)
-print("Bananas rottingg time in water: average, std deviation", average, deviation)
+print("Bananas rotting time in water: average, std deviation", average, deviation)
 
 #experiment 3 - submerged in water for 2 days and then exposed to air
 
